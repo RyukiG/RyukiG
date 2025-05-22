@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo</title>
+</head>
+<body>
+    <main>
+        <form action="#">
+            <input type="text" id="formeemail" name="email">    
+            <input type="submit">
+        </form>
+    </main>
+
+    <script>
+        function x(e) {
+            e.preventDefault();
+            var email = document.getElementById("formeemail").value 
+            console.log("Valor Obtido:", email);
+        }  
+    </script>
+</body>
+</html>

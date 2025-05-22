@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Infoel</title>
+    <style>
+            .menu {
+            position: absolute;
+            top: 22px;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            padding: 1px;
+            background-color: transparent;
+            font-weight: 700;
+            font-size: 3vh;
+            z-index: 5;
+    }
+
+                a {
+            text-decoration: none;
+            color: black;
+            transition: 0.5s;
+            border-radius: 15px;
+            padding: 5px 30px 5px 30px;
+    }
+
+    a:hover {
+            background-color: rgb(153, 120, 120);
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: black;
+        transition: 0.5s;
+        border-radius: 15px;
+        padding: 5px 30px;
+        }
+
+        /* hover padrão */
+        .menu a:hover {
+        background-color: rgb(153, 120, 120);
+        } 
+        
+
+        /* destaque da página atual */
+        .menu a.ativo {
+        border: 3px solid #4b2e2e; /* marrom escuro */
+        background-color: rgba(223, 219, 219, 0.2).2; /* levemente marcada */
+    }
+
+    </style>
+</head>
+<body>
+    <nav class="menu"><a href="index.html">Home</a> <a href="sobre.html" class="ativo">Sobre</a> <a href="ranks.html">Ranks</a> <a href="gamificacao.html">Gamificação</a> <a href="conta.html">Minha Conta</a></nav>
+</main>
+</body>
+</html>
